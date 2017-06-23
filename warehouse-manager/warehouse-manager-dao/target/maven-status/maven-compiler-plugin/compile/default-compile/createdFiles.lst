@@ -1,0 +1,4 @@
+tool\warehouse\mapper\UserMapper.class
+tool\warehouse\mapper\ItemMapper.class
+tool\warehouse\mapper\ItemDescMapper.class
+tool\warehouse\mapper\ItemCategoryMapper.class
