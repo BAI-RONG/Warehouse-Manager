@@ -2,6 +2,56 @@
 
 一个基于多智能体工作流的动态直播脚本SFT数据合成系统，能够根据产品经理的PRD需求、程序员的优化建议和评估数据，自动生成高质量的训练数据。
 
+## ✅ 系统状态
+
+**所有主要问题已修复！** 系统现在可以正常运行：
+
+- ✅ Python 3.13 兼容性问题已解决
+- ✅ 所有依赖包已更新到兼容版本
+- ✅ 虚拟环境配置完成
+- ✅ 导入错误已修复
+- ✅ 配置文件已设置
+- ✅ 演示脚本运行正常
+- ✅ 添加了自动化设置脚本
+
+## 🚀 快速开始
+
+### 方法1: 使用自动设置脚本（推荐）
+
+```bash
+# 1. 激活虚拟环境
+source venv/bin/activate
+
+# 2. 运行自动设置
+python setup.py
+
+# 3. 配置API密钥
+# 编辑 .env 文件或设置环境变量
+export OPENAI_API_KEY="your-api-key-here"
+
+# 4. 运行演示
+python simple_demo.py  # 系统概览
+python demo.py         # 完整演示
+```
+
+### 方法2: 手动设置
+
+```bash
+# 1. 创建虚拟环境
+python3 -m venv venv
+source venv/bin/activate
+
+# 2. 安装依赖
+pip install -r requirements.txt
+
+# 3. 配置API密钥
+cp .env.example .env
+# 编辑 .env 文件添加你的API密钥
+
+# 4. 运行演示
+python simple_demo.py
+```
+
 ## 🎯 系统概述
 
 本系统采用LangChain、LangGraph和DeepAgents架构，通过四个核心智能体协同工作，实现从需求分析到数据合成的全流程自动化：
