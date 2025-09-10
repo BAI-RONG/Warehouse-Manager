@@ -1,0 +1,26 @@
+paths:
+  prd_dir: prd_context
+  rd_dir: rd_context
+  eval_dir: evaluation_data
+  prompts_init_dir: prompts_init
+  outputs_dir: outputs
+
+llm:
+  default_model: ${DEFAULT_MODEL:openai:gpt-4o-mini}
+  embed_model: ${EMBED_MODEL:openai:text-embedding-3-small}
+  temperature: 0.3
+  max_tokens: 2048
+
+prompt_optimization:
+  max_iterations: 4
+  improvement_threshold: 0.01
+  batch_size: 16
+
+synthesis:
+  refinement_passes: 2
+
+adversarial:
+  num_variants: 8
+
+logging:
+  level: INFO
