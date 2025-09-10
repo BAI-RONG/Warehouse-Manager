@@ -1,0 +1,10 @@
+{"input": "生成一个晚上8点的游戏直播脚本，风格活泼", "task_id": "gaming", "metadata": {"time": "evening", "style": "energetic"}}
+{"input": "制作一个下午美妆直播的开场白", "task_id": "beauty", "metadata": {"time": "afternoon", "style": "gentle"}}
+{"input": "写一个带货直播的产品介绍话术", "task_id": "shopping", "metadata": {"time": "evening", "style": "professional"}}
+{"input": "设计一个深夜聊天直播的互动环节", "task_id": "chat", "metadata": {"time": "night", "style": "humorous"}}
+{"input": "创建一个早晨美妆直播的护肤分享内容", "task_id": "beauty", "metadata": {"time": "morning", "style": "gentle"}}
+{"input": "生成一个竞技游戏的技巧讲解脚本", "task_id": "gaming", "metadata": {"time": "evening", "style": "professional"}}
+{"input": "制作一个购物节特别活动的宣传脚本", "task_id": "shopping", "metadata": {"time": "evening", "style": "energetic"}}
+{"input": "设计一个午后聊天直播的话题讨论", "task_id": "chat", "metadata": {"time": "afternoon", "style": "gentle"}}
+{"input": "创建一个新手向游戏教学直播脚本", "task_id": "gaming", "metadata": {"time": "afternoon", "style": "gentle"}}
+{"input": "生成一个晚间美妆直播的卸妆教程", "task_id": "beauty", "metadata": {"time": "night", "style": "professional"}}

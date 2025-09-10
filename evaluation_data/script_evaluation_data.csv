@@ -1,0 +1,16 @@
+script_id,task_type,input_prompt,generated_script,relevance_score,fluency_score,creativity_score,safety_score,overall_score,human_rating,feedback,time_period,duration,streamer_style
+script_001,gaming,生成一个游戏直播脚本,大家好！欢迎来到我的直播间！今天我们要挑战这个超难的BOSS...,0.85,0.92,0.78,1.0,0.89,excellent,互动环节设计很好,evening,medium,energetic
+script_002,beauty,生成一个美妆直播脚本,亲爱的小仙女们大家好！今天要和大家分享一个超级显白的妆容...,0.91,0.88,0.82,1.0,0.90,excellent,化妆步骤讲解清晰,afternoon,long,gentle
+script_003,shopping,生成一个带货直播脚本,各位宝宝们！今天给大家带来了超值好物！这款产品我自己用了三个月...,0.87,0.85,0.75,1.0,0.87,good,产品介绍详细,evening,short,professional
+script_004,chat,生成一个聊天直播脚本,大家晚上好啊！今天心情怎么样？我刚刚吃了一个超好吃的蛋糕...,0.78,0.90,0.88,1.0,0.89,good,话题轻松有趣,night,medium,humorous
+script_005,gaming,生成一个游戏直播脚本,兄弟们！准备好了吗？今天要带大家冲分！这个英雄的连招技巧是...,0.82,0.87,0.80,1.0,0.87,good,技巧分享实用,evening,long,energetic
+script_006,beauty,生成一个美妆直播脚本,小可爱们！今天的主题是日常通勤妆！适合学生党和上班族...,0.89,0.91,0.76,1.0,0.89,excellent,适用性强,morning,medium,gentle
+script_007,shopping,生成一个带货直播脚本,宝贝们注意了！这个价格只有今天！错过就要等下次活动了...,0.84,0.83,0.72,1.0,0.85,good,营销话术恰当,evening,short,professional
+script_008,chat,生成一个聊天直播脚本,哈喽大家！今天想和大家聊聊最近看的电影！有没有同款影迷...,0.80,0.92,0.85,1.0,0.89,excellent,话题引导性好,afternoon,medium,humorous
+script_009,gaming,生成一个游戏直播脚本,各位召唤师！今天要教大家一个超强的团战技巧！首先我们来看...,0.86,0.89,0.77,1.0,0.88,good,教学内容清晰,evening,long,professional
+script_010,beauty,生成一个美妆直播脚本,美眉们！今天要挑战一个超难的烟熏妆！新手可能有点难度...,0.88,0.85,0.90,1.0,0.91,excellent,挑战性适中,night,long,energetic
+script_011,shopping,生成一个带货直播脚本,家人们！这个产品真的是我用过最好用的！不信你们看效果...,0.83,0.88,0.74,1.0,0.86,good,真实感强,afternoon,medium,gentle
+script_012,chat,生成一个聊天直播脚本,小伙伴们！今天收到了很多私信问我护肤心得！那我就来分享一下...,0.85,0.90,0.82,1.0,0.89,excellent,内容有价值,evening,medium,professional
+script_013,gaming,生成一个游戏直播脚本,老铁们！今天要带大家体验一个新游戏！画面超级震撼...,0.81,0.86,0.83,1.0,0.88,good,新鲜感强,night,short,energetic
+script_014,beauty,生成一个美妆直播脚本,小姐姐们！今天要分享一个超级实用的遮瑕技巧！黑眼圈拜拜...,0.90,0.89,0.78,1.0,0.89,excellent,实用性强,morning,short,gentle
+script_015,shopping,生成一个带货直播脚本,宝宝们！这个组合装真的超划算！单买要200多，现在只要...,0.86,0.84,0.73,1.0,0.86,good,价格优势明显,evening,medium,professional

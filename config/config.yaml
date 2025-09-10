@@ -1,0 +1,50 @@
+llm:
+  model: "gpt-4-turbo-preview"
+  temperature: 0.7
+  max_tokens: 2048
+  api_base: ""
+  api_key: ""
+
+optimization:
+  max_iterations: 5
+  convergence_threshold: 0.05
+  evaluation_batch_size: 10
+
+agents:
+  requirement_decomposition:
+    name: "需求拆解代理"
+    description: "分析PRD、RD建议和评估数据，拆解优化任务"
+    
+  prompt_optimization:
+    name: "Prompt优化代理"
+    description: "优化单个任务的prompt模板"
+    sub_agents:
+      - evaluation_flow_decomposer
+      - problem_analyzer
+      - feedback_collector
+      - response_optimizer
+      
+  data_synthesis:
+    name: "数据合成代理"
+    description: "使用优化后的prompt生成训练数据"
+    
+  adversarial_data:
+    name: "攻防数据代理"
+    description: "生成边缘case和极端情况的训练数据"
+
+evaluation:
+  dimensions:
+    subjective:
+      - "内容相关性"
+      - "语言流畅性"
+      - "创意程度"
+    objective:
+      - "格式正确性"
+      - "长度要求"
+      - "关键词覆盖"
+      - "逻辑一致性"
+
+data_synthesis:
+  output_format: "jsonl"
+  batch_size: 100
+  quality_threshold: 0.8

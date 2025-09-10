@@ -1,0 +1,25 @@
+# 创建示例评估数据Excel文件
+import pandas as pd
+import numpy as np
+
+# 生成示例评估数据
+data = {
+    'script_id': [f'script_{i:03d}' for i in range(1, 101)],
+    'task_type': np.random.choice(['gaming', 'beauty', 'shopping', 'chat'], 100),
+    'input_prompt': [f'生成一个{np.random.choice(["游戏", "美妆", "带货", "聊天"])}直播脚本' for _ in range(100)],
+    'generated_script': [f'这是一个示例脚本内容 {i}...' for i in range(100)],
+    'relevance_score': np.random.uniform(0.6, 1.0, 100),
+    'fluency_score': np.random.uniform(0.7, 1.0, 100),
+    'creativity_score': np.random.uniform(0.5, 0.9, 100),
+    'safety_score': np.random.uniform(0.8, 1.0, 100),
+    'overall_score': np.random.uniform(0.6, 0.95, 100),
+    'human_rating': np.random.choice(['excellent', 'good', 'fair', 'poor'], 100, p=[0.2, 0.4, 0.3, 0.1]),
+    'feedback': ['示例反馈内容' for _ in range(100)],
+    'time_period': np.random.choice(['morning', 'afternoon', 'evening', 'night'], 100),
+    'duration': np.random.choice(['short', 'medium', 'long'], 100),
+    'streamer_style': np.random.choice(['energetic', 'gentle', 'professional', 'humorous'], 100)
+}
+
+df = pd.DataFrame(data)
+df.to_excel('/workspace/evaluation_data/script_evaluation_data.xlsx', index=False)
+print("示例评估数据已生成")
