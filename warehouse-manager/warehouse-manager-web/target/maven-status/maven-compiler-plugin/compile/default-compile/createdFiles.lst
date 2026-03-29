@@ -1,0 +1,4 @@
+tool\warehouse\controller\pictureController.class
+tool\warehouse\controller\ItemController.class
+tool\warehouse\controller\CategoryController.class
+tool\warehouse\controller\PageController.class

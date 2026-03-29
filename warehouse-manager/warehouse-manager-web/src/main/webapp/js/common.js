@@ -1,0 +1,6 @@
+var TT= {
+
+    initPicUpload : function(){
+    	
+}
+};

@@ -1,0 +1,16 @@
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\component\impl\JedisClientSingleImpl.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\controller\LoginController.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\controller\registerController.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\component\JedisClient.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\controller\pictureController.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\impl\PictureService.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\controller\pageController.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\PictureService.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\pojo\User.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\mapper\UserMapper.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\impl\registerServiceImpl.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\LoginService.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\RegisterService.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\component\impl\JedisClientClusterImpl.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\sso\service\impl\LoginServiceImpl.java
+F:\java\软件体系结构\warehouse-sso\src\main\java\tool\warehouse\pojo\UserExample.java
